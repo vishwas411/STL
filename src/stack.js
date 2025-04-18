@@ -1,4 +1,4 @@
-export class stack {
+class stack {
     constructor() {
       this.items = []
       this.destroyed = false
@@ -50,4 +50,5 @@ export class stack {
       this.destroyed = true
     }
   }
+  module.exports = stack
   

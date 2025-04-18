@@ -1,4 +1,4 @@
-export class vector {
+class vector {
   constructor() {
     this.data = []
     this.destroyed = false
@@ -62,3 +62,4 @@ export class vector {
     this.destroyed = true
   }
 }
+module.exports = vector

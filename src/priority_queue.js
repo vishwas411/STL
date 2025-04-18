@@ -1,4 +1,4 @@
-export class priority_queue {
+class priority_queue {
     constructor(comparator = (a, b) => b - a) {
       this.data = []
       this.comparator = comparator
@@ -99,4 +99,4 @@ export class priority_queue {
       this.data[idx] = element
     }
   }
-  
+  module.exports = priority_queue

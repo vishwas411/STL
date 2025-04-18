@@ -1,4 +1,4 @@
-export class deque {
+class deque {
     constructor() {
       this.items = []
       this.destroyed = false
@@ -67,4 +67,5 @@ export class deque {
       this.destroyed = true
     }
   }
+  module.exports = deque
   

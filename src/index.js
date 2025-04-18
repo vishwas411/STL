@@ -3,11 +3,13 @@
  * @author [Vishwas Sahu]
  * @description This file serves as the main entry point for the library, exporting all necessary modules and components.
  */
-export { vector } from './vector.js'
-export { stack } from './stack.js'
-export { queue } from './queue.js'
-export { deque } from './deque.js'
-export { priority_queue } from './priority_queue.js'
-export { set } from './set.js'
-export { map } from './map.js'
-export * from './algorithms.js'
+module.exports = {
+  vector: require('./vector'),
+  stack: require('./stack'),
+  queue: require('./queue'),
+  deque: require('./deque'),
+  priority_queue: require('./priority_queue'),
+  set: require('./set'),
+  map: require('./map'),
+  ...require('./algorithms')
+}

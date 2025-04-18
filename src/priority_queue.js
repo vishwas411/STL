@@ -99,4 +99,4 @@ class priority_queue {
       this.data[idx] = element
     }
   }
-  module.exports = vector
+  module.exports = priority_queue

@@ -67,5 +67,5 @@ class deque {
       this.destroyed = true
     }
   }
-  module.exports = vector
+  module.exports = deque
   

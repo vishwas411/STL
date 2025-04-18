@@ -72,5 +72,5 @@ class map {
       this.destroyed = true
     }
   }
-  module.exports = vector
+  module.exports = map
   

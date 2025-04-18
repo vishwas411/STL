@@ -56,5 +56,5 @@ class queue {
       this.destroyed = true
     }
   }
-  module.exports = vector
+  module.exports = queue
   

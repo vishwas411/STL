@@ -48,5 +48,5 @@ class set {
       this.destroyed = true
     }
   }
-  module.exports = vector
+  module.exports = set
   

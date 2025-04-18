@@ -4,12 +4,12 @@
  * @description This file serves as the main entry point for the library, exporting all necessary modules and components.
  */
 module.exports = {
-    vector: require('./src/vector'),
-    stack: require('./src/stack'),
-    queue: require('./src/queue'),
-    deque: require('./src/deque'),
-    priority_queue: require('./src/priority_queue'),
-    set: require('./src/set'),
-    map: require('./src/map'),
-    ...require('./src/algorithms')
-  }
+  vector: require('./vector'),
+  stack: require('./stack'),
+  queue: require('./queue'),
+  deque: require('./deque'),
+  priority_queue: require('./priority_queue'),
+  set: require('./set'),
+  map: require('./map'),
+  ...require('./algorithms')
+}

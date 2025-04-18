@@ -1,4 +1,4 @@
-export class queue {
+class queue {
     constructor() {
       this.items = []
       this.destroyed = false
@@ -56,4 +56,5 @@ export class queue {
       this.destroyed = true
     }
   }
+  module.exports = vector
   

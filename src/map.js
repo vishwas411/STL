@@ -1,4 +1,4 @@
-export class map {
+class map {
     constructor() {
       this.data = new Map()
       this.destroyed = false
@@ -72,4 +72,5 @@ export class map {
       this.destroyed = true
     }
   }
+  module.exports = vector
   

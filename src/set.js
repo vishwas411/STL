@@ -1,4 +1,4 @@
-export class set {
+class set {
     constructor() {
       this.data = new Set()
       this.destroyed = false
@@ -48,4 +48,5 @@ export class set {
       this.destroyed = true
     }
   }
+  module.exports = vector
   

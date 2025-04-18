@@ -1,6 +1,5 @@
 {
   "name": "stl",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "type": "module"
+  "main": "src/index.js"
 }

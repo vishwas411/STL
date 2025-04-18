@@ -6,3 +6,4 @@
 export { vector } from './vector.js'
 export { stack } from './stack.js'
 export { queue } from './queue.js'
+export { deque } from './deque.js'

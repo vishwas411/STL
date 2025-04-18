@@ -10,7 +10,7 @@ It provides a collection of data structures and algorithms modeled after the C++
 You can include it directly from GitHub:
 
 ```bash
-npm install git+https://github.com/vishwas411/STL.git#commonJS
+npm install git+https://github.com/vishwas411/STL.git
 ```
 
 > ✅ Works with CommonJS (`require`) style
